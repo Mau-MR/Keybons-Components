@@ -1,14 +1,21 @@
 
 .main-body{
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    width: 20%;
+    border-radius: 15px;
+    padding: .5em;
 }
 
 .progress-body{
-
+    display: flex;
+    align-items: center;
 }
 
 .text-body{
-
+    margin: .5em;
 }
 
 

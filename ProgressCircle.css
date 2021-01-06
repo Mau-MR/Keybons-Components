@@ -1,7 +1,8 @@
 .svg {
-    display: block;
-    margin: 20px auto;
-    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .svg-circle-border {
@@ -11,12 +12,13 @@
 .svg-circle-text {
     font-size: 2rem;
     text-anchor: middle;
-    fill: #fff;
-    font-weight: bold;
 }
 .progress-container{
-
+    position: relative;
 }
 .progress-icon{
-
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
