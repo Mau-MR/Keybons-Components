@@ -1,0 +1,20 @@
+.Employee-container{
+    display:flex;
+    align-items: center;
+    width: 60%;
+}
+.Employee-name{
+    color:rgba(155,172,196);
+    margin-left: .25em
+}
+.Employee-image{
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+.Image-container{
+    width: 10%;
+    margin: .25em;
+}
